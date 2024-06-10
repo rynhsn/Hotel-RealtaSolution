@@ -1,10 +1,5 @@
 ﻿<!-- ======== sidebar-nav start =========== -->
 <aside class="sidebar-nav-wrapper">
-    <div class="navbar-logo">
-        <a href="index.html">
-            <img src="plain/assets/images/logo/logo.svg" alt="logo" />
-        </a>
-    </div>
     <nav class="sidebar-nav">
         <ul>
             <li class="nav-item nav-item-has-children">
@@ -28,7 +23,6 @@
                     </li>
                 </ul>
             </li>
-            <span class="divider"><hr /></span>
             <li class="nav-item nav-item-has-children">
                 <a href="#0"
                    class="collapsed"
@@ -119,6 +113,46 @@
                     </li>
                     <li>
                         <a href="blank-page.html"> Blank Page </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item nav-item-has-children">
+                <a href="#0"
+                   class="collapsed"
+                   data-bs-toggle="collapse"
+                   data-bs-target="#hotel"
+                   aria-controls="hotel"
+                   aria-expanded="false"
+                   aria-label="Toggle navigation">
+                    <span class="icon">
+                        <i class="lni lni-apartment"></i>
+                    </span>
+                    <span class="text">Hotel</span>
+                </a>
+                <ul id="hotel" class="collapse dropdown-nav">
+                    <li>
+                      <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="hotels">
+                            <span class="oi oi-list-rich" aria-hidden="true"> Hotels
+                            </span>
+                        </NavLink>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="facilities">
+                            <span class="oi oi-list-rich" aria-hidden="true"> Facility 
+                            </span>
+                        </NavLink>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="reviews">
+                            <span class="oi oi-list-rich" aria-hidden="true"> Reviews
+                            </span>
+                        </NavLink>
+                      </div>
                     </li>
                 </ul>
             </li>
